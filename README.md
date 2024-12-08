@@ -14,18 +14,14 @@ The **Race Data Dashboard** provides a comprehensive overview and analysis of ra
 Explore the live dashboard here: [Race Data Dashboard](https://lookerstudio.google.com/reporting/ae6d5d66-41ac-406e-859b-3ba20fe16d5e)
 
 ## Data Source
-The dashboard uses data from the provided CSV file, including fields such as:
-- Participant name
-- Completion time
-- Gender
-- Age
-- City and State
+The dashboard uses data from multiple sources, including:
+- CSV files with race data
+- SQL database managed with **SQL Server Management Studio**
 
 ## Data Processing
-The raw data was cleaned and preprocessed using **Google Colab** to ensure accuracy and consistency:
-- **Error Handling**: Corrected missing or inconsistent values.
-- **Data Transformation**: Adjusted formats for compatibility with the dashboard.
-- **Outlier Detection**: Identified and handled outliers in performance times.
+The raw data was cleaned and preprocessed using:
+- **Google Colab**: For initial cleaning, error handling, and data transformation.
+- **SQL Server Management Studio (SSMS)**: For structured storage, advanced querying, and efficient data handling.
 
 ### Access the Colab Notebook
 You can view and run the data cleaning process in this Colab notebook: [Google Colab Notebook](https://colab.research.google.com/drive/16e7_CXrRtziAcnlA5r3W4HlsN_I3m7pp?usp=sharing)
@@ -38,6 +34,7 @@ You can view and run the data cleaning process in this Colab notebook: [Google C
 ## Technologies Used
 - **Looker Studio**: For creating the dashboard and interactive visualizations.
 - **Google Colab**: For cleaning and preprocessing raw data.
+- **SQL Server Management Studio (SSMS)**: For managing the database and executing queries.
 - **Google Maps API**: For geographical mapping of participants.
 - **CSV Data Source**: Raw data input for analysis.
 
@@ -48,4 +45,4 @@ You can view and run the data cleaning process in this Colab notebook: [Google C
 
 ---
 
-Let me know if there’s anything else to modify! 😊
+Let me know if there’s anything else to include or modify! 😊
