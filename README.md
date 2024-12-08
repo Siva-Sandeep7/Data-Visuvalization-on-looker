@@ -21,6 +21,15 @@ The dashboard uses data from the provided CSV file, including fields such as:
 - Age
 - City and State
 
+## Data Processing
+The raw data was cleaned and preprocessed using **Google Colab** to ensure accuracy and consistency:
+- **Error Handling**: Corrected missing or inconsistent values.
+- **Data Transformation**: Adjusted formats for compatibility with the dashboard.
+- **Outlier Detection**: Identified and handled outliers in performance times.
+
+### Access the Colab Notebook
+You can view and run the data cleaning process in this Colab notebook: [Google Colab Notebook](https://colab.research.google.com/drive/16e7_CXrRtziAcnlA5r3W4HlsN_I3m7pp?usp=sharing)
+
 ## How to Use
 1. Visit the dashboard link.
 2. Use the filters to customize your view.
@@ -28,6 +37,7 @@ The dashboard uses data from the provided CSV file, including fields such as:
 
 ## Technologies Used
 - **Looker Studio**: For creating the dashboard and interactive visualizations.
+- **Google Colab**: For cleaning and preprocessing raw data.
 - **Google Maps API**: For geographical mapping of participants.
 - **CSV Data Source**: Raw data input for analysis.
 
@@ -38,4 +48,4 @@ The dashboard uses data from the provided CSV file, including fields such as:
 
 ---
 
-Feel free to customize the text as needed! Let me know if you'd like further modifications. 😊
+Let me know if there’s anything else to modify! 😊
